@@ -1,0 +1,6 @@
+--ignore-case
+--ignore-dir=vendor
+--type-set=haml=.haml
+--type-set=scala=.scala
+--nosql
+--ignore-dir=debian
