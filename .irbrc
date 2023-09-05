@@ -11,9 +11,6 @@ IRB.conf[:SAVE_HISTORY] = 100
 IRB.conf[:AUTO_INDENT] = true
 IRB.conf[:HISTORY_FILE] = "/Users/joe/.irb_history"
 
-# Initialize
-Thread.current['ums_user'] = "test@brightroll.com"
-
 START_TIME = Time.now
 
 colors = Wirble::Colorize.colors.merge(:refers => :light_purple, :comma => :light_blue)

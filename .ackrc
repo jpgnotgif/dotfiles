@@ -1,6 +1,16 @@
 --ignore-case
 --ignore-dir=vendor
+--ignore-dir=.sass-cache
 --type-set=haml=.haml
 --type-set=scala=.scala
 --nosql
 --ignore-dir=debian
+--ignore-dir=.bower
+--ignore-dir=.gems
+--ignore-dir=coverage
+--ignore-dir=log
+--ignore-dir=tmp
+--ignore-dir=tmp/cache
+--ignore-dir=tmp/data
+--ignore-dir=tmp/rubycritic
+--ignore-dir=vendor

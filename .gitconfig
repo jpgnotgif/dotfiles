@@ -1,0 +1,14 @@
+[core]
+	editor = vim
+	attributesfile = /Users/jgutierrez/.gitattributes
+[alias]
+  mrgs = merge --no-commit --squash
+  ann = annotate
+  br = branch
+[diff "json"]
+	textconv = python -m json.tool
+[user]
+	name = Joe Gutierrez
+	email = jpgnotgif@gmail.com
+[init]
+	defaultBranch = main

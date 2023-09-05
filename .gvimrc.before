@@ -1,0 +1,18 @@
+execute pathogen#infect()
+
+let g:jsx_ext_required=0
+let g:syntastic_javascript_checkers = ['eslint']
+
+let g:solarized_termcolors=256
+colorscheme solarized
+
+set t_Co=16
+set guifont=Monaco:h10
+set background=light
+set nu
+set ts=2
+set shiftwidth=2
+set ai
+syn on
+
+iabbrev </ </<C-X><C-O>
